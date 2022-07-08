@@ -35,7 +35,7 @@ TARGET		?=	$(notdir $(CURDIR))$(S2VER)
 BUILD		?=	build$(S2VER)
 SOURCES		:=	source source/fl source/fl/ui
 DATA		:=	data
-INCLUDES	:=	include include/sead
+INCLUDES	:=	include lib/practice-headers lib/practice-headers/sead
 
 #---------------------------------------------------------------------------------
 # options for code generation

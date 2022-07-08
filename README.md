@@ -20,6 +20,11 @@ The mod is compatible with versions 1.0.0 and 1.3.0 of Super Mario Odyssey, note
 
 ## Building
 
+Before building, fetch all of the headers included externally:
+```
+git submodule update --init --recursive
+```
+
 Build has only been tested on Arch Linux
 
 Just run:
